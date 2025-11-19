@@ -1,2 +1,30 @@
-
 /* Your CSS Code here. */
+
+* {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    /* flex-direction: row; */
+}
+
+/* .year {
+    display: flex;
+    flex-direction: row;
+} */
+
+.moviePic {
+    height: 300px;
+    width: 200px;
+    opacity: 0.9;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.movieDetail {
+    align-items: center;
+    text-align: center; 
+    position: absolute;
+    top: 10px;
+    width: 60%;
+    font-size: 20px;
+}
